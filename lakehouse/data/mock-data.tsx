@@ -64,7 +64,7 @@ export const mockAboutText = [
     }
 ];
 
-const mockGalleryText = [
+export const mockGalleryText = [
     {
         id: 1,
         text: "Photo Gallery",
@@ -75,7 +75,7 @@ const mockGalleryText = [
     }
 ];
 
-const mockAmenitiesText = [
+export const mockAmenitiesText = [
     {
         id: 1,
         text: "Everything You Need",
@@ -154,7 +154,7 @@ const mockAmenitiesText = [
     }
 ];
 
-const mockWeatherText = [
+export const mockWeatherText = [
     {
         id: 1,
         text: "24°C",
@@ -201,7 +201,7 @@ const mockWeatherText = [
     }
 ];
 
-const mockContactText = [
+export const mockContactText = [
     {
         id: 1,
         text: "Get in Touch",
@@ -252,7 +252,7 @@ const mockContactText = [
     },
 ];
 
-const mockFooterText = [
+export const mockFooterText = [
     {
         id: 1,
         text: "Cozy Cottage",
@@ -299,9 +299,9 @@ const mockFooterText = [
     },
 ];
 
-const mockHeaderImg = [
+export const mockHeaderImg = [
     {
         id: 1,
-        url: "https://assets.guesty.com/image/upload/v1711480499…62d9503b45b52e0032977cc8/y9u9n86ydnudlmuxn1ci.jpg",
+        url: "/imgs/lakehouseImg.png",
     },
 ]
