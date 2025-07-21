@@ -1,15 +1,9 @@
 import Link from "next/link";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList } from "./ui/navigation-menu";
 import { Button } from "./ui/button";
+import { navItems } from "../../data/mock-data";
 
 export default function Nav() {
-    const navItems = [
-        { name: 'Home', href: '/' },
-        { name: 'About', href: '/about' },
-        { name: 'Amenities', href: '/amenities' },
-        { name: 'Gallery', href: '/gallery' },
-        { name: 'Contact', href: '/contact' },
-    ];
 
     return (
     <nav className="w-full border-b bg-white">
