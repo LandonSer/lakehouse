@@ -6,7 +6,7 @@ import { navItems } from "../../data/mock-data";
 export default function Nav() {
 
     return (
-    <nav className="fixed top-0 left-0 z-1 right-0 w-full border-b bg-white border-stone-200">
+    <nav className="w-full border-b bg-white border-stone-200">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         <div className="w-32" />
 
