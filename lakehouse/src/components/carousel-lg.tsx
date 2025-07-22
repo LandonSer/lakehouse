@@ -9,6 +9,7 @@ export default function CarouselLg(props: any) {
             opts={{
               align: "start",
               loop: true,
+              skipSnaps: true
             }}
             className="w-full max-w-5xl mx-auto"
         >
