@@ -72,6 +72,10 @@ export const mockGalleryText = [
     {
         id: 2,
         text: "Take a virtual tour of our beautiful cottage and its stunning surroundings",
+    },
+    {
+        id: 3,
+        text: "Quick Preview",
     }
 ];
 
@@ -304,4 +308,43 @@ export const mockHeaderImg = [
         id: 1,
         url: "/imgs/lakehouseImg.png",
     },
-]
+];
+
+export const mockGalleryCarousel = [
+    {
+        id: 1,
+        url: "/imgs/lakehouseImg.png",
+    },
+    {
+        id: 2,
+        url: "/imgs/lakehouseImg.png",
+    },
+    {
+        id: 3,
+        url: "/imgs/lakehouseImg.png",
+    },
+    {
+        id: 4,
+        url: "/imgs/lakehouseImg.png",
+    },
+    {
+        id: 5,
+        url: "/imgs/lakehouseImg.png",
+    },
+    {
+        id: 6,
+        url: "/imgs/lakehouseImg.png",
+    },
+    {
+        id: 7,
+        url: "/imgs/lakehouseImg.png",
+    },
+    {
+        id: 8,
+        url: "/imgs/lakehouseImg.png",
+    },
+    {
+        id: 9,
+        url: "/imgs/lakehouseImg.png",
+    },
+];
