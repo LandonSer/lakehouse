@@ -6,7 +6,7 @@ export default function Hero(props: any) {
             <Image 
                 src = {props.heroValues.heroImg}
                 alt = "Lakehouse Hero Image"
-                fill = {true}
+                fill
             />
 
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/45 to-transparent z-0" />
