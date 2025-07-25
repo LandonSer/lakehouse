@@ -85,6 +85,10 @@ export const mockAmenitiesText = [
         text: "Everything You Need",
     },
     {
+        id: 0,
+        text: "Our cottage is equipped with modern amenities while maintaining its rustic charm. We've thought of everything to make your stay comfortable and memorable."
+    },
+    {
         id: 2,
         info: [ 
             {
