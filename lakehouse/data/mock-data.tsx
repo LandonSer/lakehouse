@@ -1,9 +1,9 @@
 export const navItems = [
         { name: 'Home', href: '/' },
-        { name: 'About', href: '/about' },
-        { name: 'Amenities', href: '/amenities' },
-        { name: 'Gallery', href: '/gallery' },
-        { name: 'Contact', href: '/contact' },
+        { name: 'About', href: '/#about' },
+        { name: 'Gallery', href: '/#gallery' },
+        { name: 'Amenities', href: '/#amenities' },
+        { name: 'Contact', href: '/#contact' },
     ];
 
 export const mockHeaderText = [

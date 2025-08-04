@@ -22,7 +22,7 @@ export default function Nav() {
                     href={item.href}
                     className="text-sm text-black hover:text-blue-600 hover:bg-transparent focus:outline-none transition-colors"
                   >
-                    {item.name}
+                    {item.href}
                   </Link>
                 </NavigationMenuLink>
               </NavigationMenuItem>

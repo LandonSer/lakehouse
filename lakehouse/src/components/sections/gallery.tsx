@@ -1,7 +1,7 @@
 import GridSm from "@/components/grid-sm";
 import { mockGalleryCarousel } from "../../../data/mock-data";
 import { mockGalleryText } from "../../../data/mock-data";
-import CarouselLg from "../../components/carousel-lg";
+import CarouselLg from "../carousel-lg";
 
 export default function Gallery() {
     const carouselProps = {
