@@ -4,7 +4,7 @@ import { mockHeaderImg } from "../../../data/mock-data";
 
 export default function About() {
     return (
-        <section className="py-20 bg-blue-50">
+        <section id="about" className="py-20">
                 <div className="container mx-auto px-6 max-w-7xl">
                     <div className="grid lg:grid-cols-2 gap-12 items-center">
                         <div>
