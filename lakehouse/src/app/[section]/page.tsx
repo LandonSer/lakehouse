@@ -1,11 +1,12 @@
 import { redirect } from "next/navigation";
+import { navItems } from "../../../data/mock-data";
 
-export default function SectionRedirect({ params }: { params: { section: string } }) {
-  const validSections = ["about", "gallery", "contact"];
+export default async function SectionRedirect(props: { params: Promise<{ section: string }> }) {
+    const params = await props.params;
+    const validSections = navItems.map(item => item.name);   
+    const target = validSections.includes(params.section)
+        ? `#/${params.section}`
+        : "/";
 
-  const target = validSections.includes(params.section)
-    ? `/#${params.section}`
-    : "/";
-
-  redirect(target);
+    redirect(target);
 }

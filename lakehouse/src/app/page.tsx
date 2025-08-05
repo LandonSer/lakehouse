@@ -30,7 +30,7 @@ export default function Home() {
     };
 
   return (
-    <main className="scroll-smooth">
+    <main className="scroll-smooth [&>*:nth-child(odd)]:bg-blue-50">
       <Hero heroValues = {heroProps} />
       <About />
       <Gallery />

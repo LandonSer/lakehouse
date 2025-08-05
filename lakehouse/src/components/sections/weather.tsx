@@ -9,7 +9,7 @@ export default function Weather() {
         };
 
     return (
-        <section className="py-12 border-t border-border">
+        <section id="weather" className="py-12 border-t border-border">
             <WeatherBar weatherValues = {weatherProps} /> 
         </section>
     )
